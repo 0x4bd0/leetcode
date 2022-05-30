@@ -14,7 +14,6 @@ const longestCommonPrefix = (strs) => {
         
         let prefixTest = checkWord.slice(0 , i).join('')
 
-        
         for(let j = 0; strs.length > j; j++){
 
             if(prefixTest !== strs[j].slice(0, i)){
