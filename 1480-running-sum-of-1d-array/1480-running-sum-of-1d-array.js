@@ -11,5 +11,4 @@ const runningSum = nums => {
     }
     
     return tmp
-    
 };
