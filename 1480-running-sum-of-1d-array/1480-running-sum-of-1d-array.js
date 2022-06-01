@@ -7,9 +7,9 @@ const runningSum = nums => {
     let tmp = []
     
     for(let i = 1; nums.length >= i; i++ ){
-        tmp.push(nums.slice(0, i))
+        tmp.push(nums.slice(0, i).reduce((a,b)=>a+b))
     }
     
-    return tmp.map(item => item.reduce((a,b)=> a+b))
+    return tmp
     
 };
