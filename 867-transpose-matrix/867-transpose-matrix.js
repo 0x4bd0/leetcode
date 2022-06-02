@@ -4,6 +4,7 @@
  */
 
 const transpose = matrix => {
+    
     let response = []
     
     while(matrix[0].length > 0){
@@ -11,4 +12,5 @@ const transpose = matrix => {
     }
     
     return response
+    
 }
