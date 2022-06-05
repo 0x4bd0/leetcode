@@ -2,7 +2,7 @@
 func isPalindrome(x int) bool {
     reversed := ""
     
-     var str = strconv.Itoa(x)
+    var str = strconv.Itoa(x)
     
     for _, char := range str {
        reversed = string(char) + reversed
