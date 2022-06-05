@@ -7,8 +7,8 @@ func isPalindrome(x int) bool {
     for _, char := range str {
        reversed = string(char) + reversed
     }
-    
-	y, _ := strconv.Atoi(reversed)
+
+    y, _ := strconv.Atoi(reversed)
     
     return  y == x
 }
