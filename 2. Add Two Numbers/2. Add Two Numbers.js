@@ -32,7 +32,6 @@ var addTwoNumbers = function (l1, l2) {
         l2 = l2.next ?? 0
 
         node = node.next
-
     }
 
     if (leftOver) node.next = new ListNode(leftOver)
